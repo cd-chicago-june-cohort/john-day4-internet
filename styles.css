@@ -101,7 +101,7 @@
 #ninjaDiv {
     background-image: url(images/ad_background.png);
     width: 98%;
-    height: 300px;
+    height: 350px;
     margin-top: 20px;
     border-radius: 1px;
     box-shadow: 2px 2px 1px grey;
@@ -109,7 +109,8 @@
 }
 
 #reinvent {
-    padding-top: 18px;
+    padding-top: 25px;
+    padding-bottom: 10px;
     padding-right: 9px;
     text-align: center;
     font-size: 25px;
@@ -128,7 +129,7 @@ border-radius: 5px;
 height: 25px;
 line-height: 22px;
 margin-left: 5px;
-margin-top: 10px;
+margin-top: 27px;
 font-size: 17px;
 text-align: center;
 }
@@ -181,7 +182,7 @@ text-align: center;
 }
 
 hr {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #client_server {
@@ -196,18 +197,47 @@ ul, ol {
 }
 
 #explanation {
-    padding: 10px;
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 li {
     padding: 5px;
+    font-size: 15px;
 }
 
+#bottomRight {
+    width: 89%;
+    height: 200px;
+    border-top: 5px solid rgb(0, 135, 221);
+    border-left: 5px solid rgb(0, 135, 221);
+    border-right: 5px solid rgb(0, 135, 221);
+    padding: 19px;
+    margin-top: 23px;
+    
+}
 
+#bottomRight img, #bottomRight div {
+    display: inline-block;
+}
 
+#bottomRight img {
+    height: 113px;
+    width: 16%;
+}
 
+#bottomRight div {
+    width: 80%;
+    margin-left: 20px
+}
 
+#bottomRight div p {
+    margin: 5px;
+}
+
+a {
+    color: rgb(35, 165, 184);
+    text-decoration: none;
+}
 
 
 
